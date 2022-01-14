@@ -41,9 +41,12 @@ public class Calculator {
         return sum;
     }
 
+    // Main method 
     public static void main(String[] args) {
+        //Creating object myCalculator 
         Calculator myCalculator = new Calculator();
 
+        //declaring addValue int and assigning it to the result of add method 
         int addValue = myCalculator.add(5, 7);
 
         System.out.println(addValue);
