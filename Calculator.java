@@ -64,14 +64,14 @@ public class Calculator {
 
         System.out.println(multipleValue);
 
-        // int divisionValue hold the result of divide method 
+        // int divisionValue hold the result of divide method
         int divisionValue = myCalculator.divide(9, 3);
-        //Prints the results to the console
+        // Prints the results to the console
         System.out.println(divisionValue);
 
-
+        // int moduleValue holds result of modulo method
         int moduloValue = myCalculator.modulo(9, 2);
-
+        // Prints the results to the console
         System.out.println(moduloValue);
 
     }
