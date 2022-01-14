@@ -49,8 +49,10 @@ public class Calculator {
         //declaring addValue int and assigning it to the result of add method 
         int addValue = myCalculator.add(5, 7);
 
+        //printing the addValue to the console
         System.out.println(addValue);
 
+        //declaring subtractValue and assigning it to the value of subtract method 
         int subtractValue = myCalculator.subtract(45, 11);
         System.out.println(subtractValue);
 
